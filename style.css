@@ -50,10 +50,10 @@ nav a:hover {
     padding: 12px;
     flex: 1 1 160px;
     transition: transform 0.2s;
+}
 
-    h2 {
-        text-align: center;
-    }
+.card h2 {
+    text-align: center;
 }
 
 .card:hover {

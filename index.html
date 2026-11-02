@@ -26,16 +26,18 @@
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
     <header>
         <h1>Hello, I'm learning web development</h1>
 
-        <nav>
-            <a href="index.html">Home</a>
+        <nav aria-label="Main">
+            <a href="index.html" aria-current="page">Home</a>
             <a href="about.html">About</a>
         </nav>
     </header>
 
-    <main>
+    <main id="main">
         <div class="cards">
             <section class="card">
                 <h2>My goals</h2>
@@ -66,7 +68,7 @@
         
         <img src="photo.jpg" alt="Me at my desk" width="300">        
         <p>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener">Visit Site</a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener">Visit YouTube (opens in new tab)</a>
         </p>
     </main>
 

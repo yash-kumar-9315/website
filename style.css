@@ -133,7 +133,7 @@ nav a[aria-current="page"] {
 }
 
 a:focus-visible {
-    outline: 3px solid var(--colo-text);
+    outline: 3px solid var(--color-text);
     outline-offset: 3px;
 }
 

@@ -1,4 +1,5 @@
 :root {
+    color-scheme: light dark;
     --color-brand: #6a3fb5;
     --color-on-brand: white;
     --color-text: #222222;
@@ -118,7 +119,7 @@ footer {
     left: 12px;
     top: -60px;
     background-color: #ffd166;
-    color: var(--color-text);
+    color: #222222;
     padding: 8px 12px;
     border-radius: 4px;
     z-index: 10;
@@ -142,5 +143,15 @@ a:focus-visible {
     img:hover,
     nav a:hover {
         transform: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text: #eeeeee;
+        --color-bg: #121212;
+        --color-surface: #1e1e1e;
+        --color-border: #3a3a3a;
+        --color-muted: #aaaaaa;
     }
 }

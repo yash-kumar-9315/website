@@ -7,6 +7,9 @@
     --color-surface: white;
     --color-border: #dddddd;
     --color-muted: #666666;
+    --color-highlight: #ffd166;
+    --color-on-highlight: #222222;
+    --color-nav-hover: #fffbe6;
     --radius: 8px;
 }
 
@@ -42,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fffbe6;
+    color: var(--color-nav-hover);
     transform: translateY(-4px);
 }
 
@@ -118,8 +121,8 @@ footer {
     position: absolute;
     left: 12px;
     top: -60px;
-    background-color: #ffd166;
-    color: #222222;
+    background-color: var(--color-highlight);
+    color: var(--color-on-highlight);
     padding: 8px 12px;
     border-radius: 4px;
     z-index: 10;
@@ -153,5 +156,9 @@ a:focus-visible {
         --color-surface: #1e1e1e;
         --color-border: #3a3a3a;
         --color-muted: #aaaaaa;
+    }
+    
+    img {
+        filter: brightness(0.95);
     }
 }
